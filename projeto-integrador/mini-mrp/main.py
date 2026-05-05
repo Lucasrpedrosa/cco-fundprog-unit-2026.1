@@ -6,7 +6,7 @@ def exibir_menu():
     print("1. Inserir demanda de iPhone")
     print("2. Ver plano de produção")
     print("3. Executar motor de explosão")
-    print ("4. Sair")
+    print("4. Sair")
    
 
 def main ():
@@ -42,6 +42,7 @@ def main ():
                 print(f"Prazo: Semana {semana_entrega}")
             else:
                 print("\nNenhuma demanda registrada. Por favor, insira uma demanda primeiro.")
+
         elif opcao == "4":
             print("encerrando o programa...")
             break
@@ -51,10 +52,15 @@ def main ():
 if __name__ == "__main__":
     main() 
 
+EStoque_baterias = 100
+estoque_telas = 100
+estoque_processadores = 100
+estoque_carcaças = 100
+estoque_memorias = 100
+#teste
 #Laura Rezende - Motor de explosão
-oi
-i
-io
+
+
 
 #Nicolas G. -
 
